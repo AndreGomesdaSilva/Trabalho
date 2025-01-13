@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5rem;
+    width: 100%; 
+    background-color: black; 
+}
+
+ul{
+    display: flex;
+    gap: 5em;
+}
+
+/* Estilização dos itens do menu */
+.item-menu {
+    font-size: 18px;
+    color: #00754a;
+    font-family: 'Sarala', sans-serif;;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+   
+  }
+  
+  /* Linha que aparece abaixo do item quando ele é focado 
+  ou está com o cursor em cima */
+  .item-menu:focus:after,
+  .item-menu:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  /* Estilização da linha abaixo do item */
+  .item-menu:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ef8943;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+    transition: 1s;
+   
+  }
+
+  /* Estilização dos links do menu */
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+
+.imagem{
+    margin: 5% 0 0 10%;
+    width: 250px;
+    height:100px;
+}
+
+main{
+    background-color: #18392f;
+    flex: 1;
+    
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #00754a;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
