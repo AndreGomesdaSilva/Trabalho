@@ -4,19 +4,35 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #18392f;
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #e9f3ef;
+  display: flex;
+  flex-direction: column;
 }
 
 header{
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: black; 
+    background-color: #00a38f; 
 }
 
-p{
-    color: #00754a;
-    font-size: 40px;
+.logo{
+  color: #e9f3ef;
+  font-family: 'Sarala', sans-serif;;
+  font-size: 2rem;
+  padding-left: 2rem;
 
 }
+
+.sessao-primary{
+    
+    background-color: #70c5bb;
+    width: 20%;
+    height: 100%;
+}
+

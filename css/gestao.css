@@ -5,18 +5,34 @@
 }
 
 body{
-    background-color: #18392f;
+    background-color: #e9f3ef;
 }
 
 header{
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: black; 
+    background-color: #00a38f; 
+}
+
+.logo{
+  color: #e9f3ef;
+  font-family: 'Sarala', sans-serif;;
+  font-size: 2rem;
+  padding-left: 2rem;
+
+}
+
+main{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 p{
-    color: #00754a;
-    font-size: 40px;
-
+    color: #00a38f;
+    font-size: 5rem;
 }

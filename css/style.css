@@ -19,18 +19,28 @@ header{
     justify-content: space-between;
     padding-right: 5rem;
     width: 100%; 
-    background-color: black; 
+    height: 5rem;
+    background-color: #00a38f; 
+}
+
+.logo{
+  color: #e9f3ef;
+  font-family: 'Sarala', sans-serif;;
+  font-size: 2rem;
+  padding-left: 2rem;
+  cursor: default;
 }
 
 ul{
     display: flex;
+    list-style: none;
     gap: 5em;
 }
 
 /* Estilização dos itens do menu */
 .item-menu {
     font-size: 18px;
-    color: #00754a;
+    color: #e9f3ef;
     font-family: 'Sarala', sans-serif;;
     font-weight: 800;
     cursor: pointer;
@@ -61,7 +71,7 @@ ul{
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #ef8943;
+    background-color: #9ceedd;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
@@ -83,7 +93,7 @@ ul{
 }
 
 main{
-    background-color: #18392f;
+    background-color: #e9f3ef;
     flex: 1;
     
 }
@@ -92,8 +102,8 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: black;
-    color: #00754a;
+    background-color: #00a38f;
+    color: #e9f3ef;
     text-align: center;
     padding: 20px;
 }
